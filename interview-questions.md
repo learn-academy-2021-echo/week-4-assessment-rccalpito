@@ -7,7 +7,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 1. What are props in React?
 
-  Your answer:
+  Your answer: Props in react are "properties" that are passed from a parent component to a child component. These props can pass both data and behavior to a child component. These passed properties are only one directional, and cannot be passed from child to parent. In order to pass said behavior or data to a component, the function/state variable must be passed using this.props.
 
   Researched answer:
 
@@ -15,7 +15,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 2. What is a DOM event?
 
-  Your answer:
+  Your answer: The DOM is a document object manager. This is the display that is refreshed and updated that a user sees. A DOM event is an event that happens on the screen that causes a re-rendering of what is being displayed.
 
   Researched answer:
 
@@ -23,7 +23,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 3. What is object-oriented programming? How is it different than functional programming?
 
-  Your answer:
+  Your answer: Object oriented programming is the methodology that the programs be thought of as data driven (objects), instead of behavior driven (functions). 
 
   Researched answer:
 
@@ -31,7 +31,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 4. What is the difference between a Float and an Integer in Ruby?
 
-  Your answer:
+  Your answer: An integer is a whole number value. A float is a decimal value that can be represented up to a certain number of bits. 
 
   Researched answer:
 
@@ -39,7 +39,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 5. Ruby has an implicit return. What does that mean?
 
-  Your answer:
+  Your answer: An implicit return is such that functions do not to return explicit values. 
 
   Researched answer:
 
