@@ -15,7 +15,7 @@
 // use a function similar to .shift() or .pop() to remove an element within the array
 // .shift removes the first element of an array and returns that removed element
 // randomizer is Math.floor(Math.random() * array.length)
-// 
+// going to need more time as my og idea did not work.. going to work on this past monday...
 
 // a) Create a test with an expect statement using the variable provided. HINT: Check out this resource: https://jestjs.io/docs/expect#expectarraycontainingarray
 // describe("remRandArr", () => {
@@ -61,14 +61,14 @@ describe("minMax", () => {
     it("takes an array of numbers and returns an array of the minimum and maximum numbers in that order.", () => {
   
       //an expect method, nested within the test block, calling on the hello() function, followed by the .toEqual() matcher that checks the expected output of the function return.
+      // var nums1 = [3, 56, 90, -8, 0, 23, 6]
+      // // Expected output: [-8, 90]
+      // var nums2 = [109, 5, 9, 67, 8, 24]
+      // // Expected output: [5, 109]
       expect(minMax(nums1)).toEqual([-8, 90])
       expect(minMax(nums2)).toEqual([5, 109])
     })
   })
-// var nums1 = [3, 56, 90, -8, 0, 23, 6]
-// // Expected output: [-8, 90]
-// var nums2 = [109, 5, 9, 67, 8, 24]
-// // Expected output: [5, 109]
 
 
 
@@ -93,12 +93,12 @@ describe("repeatNum", () => {
     it("function that takes in two arrays as arguments and returns one array with no duplicate values", () => {
   
       //an expect method, nested within the test block, calling on the hello() function, followed by the .toEqual() matcher that checks the expected output of the function return.
+      // var testArray1 = [3, 7, 10, 5, 4, 3, 3]
+      // var testArray2 = [7, 8, 2, 3, 1, 5, 4]
+      // // Expected output: [3, 7, 10, 5, 4, 8, 2, 1]
       expect(repeatNum(testArray1, testArray2)).toEqual([3, 7, 10, 5, 4, 8, 2, 1])
     })
   })
-var testArray1 = [3, 7, 10, 5, 4, 3, 3]
-var testArray2 = [7, 8, 2, 3, 1, 5, 4]
-// Expected output: [3, 7, 10, 5, 4, 8, 2, 1]
 
 
 
